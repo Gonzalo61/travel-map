@@ -1,9 +1,9 @@
-import Grid from '@material-ui/core/Grid';
-import useStyles from './CoreStructureStyles';
+import Grid from "@material-ui/core/Grid";
+import useStyles from "./CoreStructureStyles";
 
-import Header from './Header/Header';
-import List from './List/List';
-import Map from './Map/Map';
+import Header from "./Header/Header";
+import List from "./List/List";
+import Map from "./Map/Map";
 
 const CoreStructure = () => {
   const classes = useStyles();
