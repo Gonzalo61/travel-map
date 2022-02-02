@@ -1,9 +1,16 @@
+import { CssBaseline, ThemeProvider } from "@material-ui/core";
+import CoreStructure from "./components/CoreStructure";
+
+import theme from "./styles/globals";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello, World</h1>
-    </div>
+    // <div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <CoreStructure />
+    </ThemeProvider>
+    // </div>
   )
 };
 
